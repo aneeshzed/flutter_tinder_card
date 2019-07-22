@@ -1,6 +1,6 @@
 name: tinder_card
-description: A sample Tinder Card with swipe effects
-version: 0.1.0
+description: A sample Tinder Card with swipe effects (right, left, up) and multiple images showing into the card and tap to view the next image.
+version: 0.1.1
 author: Aneesh G <Aneesh2405@gmail.com>
 homepage: https://github.com/Aneesh1990/flutter_tinder_card.git
 

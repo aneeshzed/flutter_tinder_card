@@ -4,7 +4,7 @@
 
 ## Getting Started
 
-A sample Tinder Card with swipe effects with multiple image showing in a card.
+A sample Tinder Card with swipe effects with multiple images showing in a card.
 
 
 

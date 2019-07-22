@@ -1,0 +1,22 @@
+PODS:
+  - Flutter (1.0.0)
+  - tinder_card (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `.symlinks/flutter/ios`)
+  - tinder_card (from `.symlinks/plugins/tinder_card/ios`)
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: ".symlinks/flutter/ios"
+  tinder_card:
+    :path: ".symlinks/plugins/tinder_card/ios"
+
+SPEC CHECKSUMS:
+  Flutter: 58dd7d1b27887414a370fcccb9e645c08ffd7a6a
+  tinder_card: 5fa72983340b21d0734b17f7830305a67289d6e1
+
+PODFILE CHECKSUM: b6a0a141693093b304368d08511b46cf3d1d0ac5
+
+COCOAPODS: 1.6.1

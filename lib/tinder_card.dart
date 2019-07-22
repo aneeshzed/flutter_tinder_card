@@ -23,12 +23,6 @@ class TinderSwapCard extends StatefulWidget {
 class _TinderSwapCardState extends State<TinderSwapCard> {
   Match match = new Match();
 
-  Widget _buildAppBar() {
-    return AppBar(
-      backgroundColor: Colors.white,
-    );
-  }
-
   Widget _buildBottomBar(MatchEngine matchEngine) {
     return BottomAppBar(
         color: Colors.transparent,

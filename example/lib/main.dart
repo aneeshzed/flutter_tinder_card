@@ -26,20 +26,20 @@ class _MyAppState extends State<MyApp> {
 final List<Profile> demoProfiles = [
   new Profile(
     photos: [
-      "assets/3.jpg",
-      "assets/2.jpg",
       "assets/1.jpg",
-      "assets/3.jpg",
       "assets/2.jpg",
+      "assets/3.jpg",
       "assets/1.jpg",
+      "assets/2.jpg",
+      "assets/3.jpg",
     ],
-    name: "Aneesh G",
+    name: "Ansh mathey",
     bio: "This is the person you want",
   ),
   new Profile(
     photos: [
-      "assets/5.jpeg",
-      "assets/6.jpeg",
+      "assets/5.jpg",
+      "assets/6.jpg",
     ],
     name: "Amanda Tylor",
     bio: "You better swpe left",
