@@ -10,7 +10,7 @@ A sample Tinder Card with swipe effects
 
 ## Demo
 
-![Demo]()
+![Demo](https://github.com/Aneesh1990/flutter_tinder_card/blob/master/example/assets/ezgif.com-video-to-gif.gif)
 
 *See example for details*
 
@@ -78,6 +78,8 @@ final List<Profile> demoProfiles = [
     );
   }
 ```
+
+
 
 
 
