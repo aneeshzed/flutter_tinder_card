@@ -1,14 +1,84 @@
 # tinder_card
 
-A sample Tinder Card with swipe effects
+
 
 ## Getting Started
 
-This project is a starting point for a Flutter
-[plug-in package](https://flutter.dev/developing-packages/),
-a specialized package that includes platform-specific implementation code for
-Android and/or iOS.
+A sample Tinder Card with swipe effects
 
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.dev/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+
+
+## Demo
+
+![Demo](https://raw.githubusercontent.com/java-james/loading_overlay/master/loading_overlay.png)
+
+*See example for details*
+
+
+## Usage
+
+Add the package to your `pubspec.yml` file.
+
+```yml
+dependencies:
+  loading_overlay: ^0.1.1
+```
+
+Next, import the library into your widget.
+
+```dart
+'import 'package:tinder_card/tinder_card.dart';
+```
+
+## How to pass the card data
+
+Here we are using a common data structure for the card detail 
+Here i'm usind a model class for the data handling
+```dart
+
+class Profile {
+  final List<String> photos;
+  final String name;
+  final String bio;
+
+  Profile({this.photos, this.name, this.bio});
+}
+```
+adding some dummy data to the Profile model
+```dart
+//dummy data
+final List<Profile> demoProfiles = [
+  new Profile(
+    photos: [
+      "assets/3.jpg",
+      "assets/2.jpg",
+      "assets/1.jpg",
+      "assets/3.jpg",
+      "assets/2.jpg",
+      "assets/1.jpg",
+    ],
+    name: "Aneesh G",
+    bio: "This is the person you want",
+  ),
+];
+
+```
+
+### Show the tinder card in the Scaffold 
+
+```dart
+@override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      home: Scaffold(
+          body: TinderSwapCard(
+        demoProfiles: demoProfiles,
+        myCallback: (decision) {},
+      )),
+    );
+  }
+```
+
+
+
+
