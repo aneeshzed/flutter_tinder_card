@@ -10,7 +10,7 @@ A sample Tinder Card with swipe effects
 
 ## Demo
 
-![Demo](https://raw.githubusercontent.com/java-james/loading_overlay/master/loading_overlay.png)
+![Demo]()
 
 *See example for details*
 
@@ -21,7 +21,7 @@ Add the package to your `pubspec.yml` file.
 
 ```yml
 dependencies:
-  loading_overlay: ^0.1.1
+  tinder_card: ^0.1.1
 ```
 
 Next, import the library into your widget.
