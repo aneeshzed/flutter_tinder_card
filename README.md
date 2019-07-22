@@ -4,7 +4,7 @@
 
 ## Getting Started
 
-A sample Tinder Card with swipe effects
+A sample Tinder Card with swipe effects with multiple image showing in a card.
 
 
 
@@ -24,7 +24,21 @@ dependencies:
   tinder_card: ^0.1.1
 ```
 
-Next, import the library into your widget.
+## Install it
+
+You can install packages from the command line:
+
+with Flutter:
+
+```dart
+$ flutter pub get
+```
+
+Alternatively, your editor might support flutter pub get. Check the docs for your editor to learn more.
+
+# Import it
+
+Now in your Dart code, you can use:
 
 ```dart
 'import 'package:tinder_card/tinder_card.dart';
